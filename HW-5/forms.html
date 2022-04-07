@@ -1,19 +1,56 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms</title>
 </head>
+
 <body>
-    <table>
+    <table style="width: 700px;">
         <tr>
-            <td>dsds</td>
-            <td>dsds</td>
-            <td>dsds</td>
-            <td>dsdsd</td>
+            <td>
+                <form action="http://sc.it-academy.by/fe/form.php" method="get">
+                    <label for="serach_field">Строка поиска</label> <br>
+                    <input type="text" maxlength="10">
+                    <input type="button" value="Искать"> <br>
+                    <input type="radio" name="siteSearch" id="siteSearch" checked>
+                    <label for="siteSearch">на сайте</label>
+                    <input type="radio" name="google" id="searchGoogle">
+                    <label for="google">в google</label>
+                </form>
+            </td>
+            <td>
+                <form action="http://sc.it-academy.by/fe/form.php" method="get">
+                    <label for="serach_field">Строка поиска</label> <br>
+                    <input type="text" maxlength="10" required autofocus>
+                    <input type="button" value="Искать"> <br>
+                    <input type="radio" name="siteSearch" id="siteSearch">
+                    <label for="siteSearch">на сайте</label>
+                    <input type="radio" name="google" id="searchGoogle" checked>
+                    <label for="google">в google</label>
+                </form>
+            </td>
         </tr>
+        <tr>
+            <td>
+                <form action="http://sc.it-academy.by/fe/form.php" method="get">
+                    <label for="auth">Авторизуйтесь</label> <br>
+                    <input type="text" required>
+                    <label for="login">*Логин</label><br>
+                    <input type="password" required>
+                    <label for="password">*Пароль</label><br>
+                    <input type="checkbox" name="stayLoggedIn" id="stayLoggedIn">
+                    <label for="stayLoggedIn">Остваться в системе</label><br>
+                    <input type="button" value="Войти">
+
+                </form>
+            </td>
+        </tr>
+        <tr></tr>
         <tr></tr>
     </table>
 </body>
+
 </html>
