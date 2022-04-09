@@ -1,0 +1,19 @@
+body {
+    width: 700px;
+}
+.header {
+    text-align: right;
+}
+.address {
+    font-style: italic;
+}
+.coverLetter {
+    font-family: cursive;
+    font-style: italic;
+    font-weight: 100;
+}
+#recepient {
+    font-family: cursive;
+    font-size: x-large;
+    font-weight: bold;
+}
