@@ -14,3 +14,9 @@
 code {
     color: green;
 }
+.nav {
+    display: inline-block;
+    background-color: #d0e1e1;
+    font-size: medium;
+    width: 15em;
+}
