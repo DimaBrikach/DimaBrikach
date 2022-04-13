@@ -1,4 +1,5 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -6,15 +7,40 @@
     <title>CSS Basic- 3</title>
     <link rel="stylesheet" href="main.css">
 </head>
+
 <body>
-    <nav class="nav">  
-        <p>Блок навигации</p>
-        <ul>
-            <li>Width 15em</li>
-            <li>Must have background color</li>
-            <li>Left aligned</li>
-            <li>Fill in the navigation block with the info enough to overlap the second article. Refer to the image as an example</li>
-        </ul>
-    </nav>
+    <div class="wrapper">
+            <nav class="nav">
+                <h4>Блок навигации</h4>
+                <ul>
+                    <li>Width 15em</li>
+                    <li>Must have background color</li>
+                    <li>Left aligned</li>
+                    <li>Fill in the navigation block with the info enough to overlap the second article. Refer to the
+                        image
+                        as an example</li>
+                </ul>
+            </nav>
+        <div class="article">
+            <h4>Статья 1</h4>
+            <p>Размер Блока:</p>
+            <ul class="articleParameters">
+                <li>Занимает всю доступную ширину</li>
+                <li>Должен присутствовать цвет фона</li>
+                <li>Во всех "статьях" сделайте отступ снизу от соседнейравным .2em, при помощи свойства margin-bottom</li>
+            </ul>
+        </div>
+        <div class="article">
+            <h4>Статья 2</h4>
+            <p>Размер блока:</p>
+            <ul class="articleParameters">
+                <li>Занимает всю доступную ширину</li>
+                <li>Должен присутствовать цвет фона</li>
+                <li>Во всех "статьях" сделайте отступ снизу от соседнейравным .2em, при помощи свойства margin-bottom <br>
+                Картинка вставлена при помощи тега, плавание организовано по правому краю внутри данной статьи для данной картинки
+                </li>
+            </ul>
+    </div>
 </body>
+
 </html>

@@ -14,9 +14,20 @@
 code {
     color: green;
 }
+.wrapper {
+    background: #b8d9d2;
+}
 .nav {
-    display: inline-block;
+    display: block;
     background-color: #d0e1e1;
     font-size: medium;
     width: 15em;
+}
+.article {
+    background: #8bc4b8;
+    margin-bottom: 2em;
+
+}
+.articleParameters {
+    list-style: none;
 }
