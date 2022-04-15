@@ -32,6 +32,7 @@ code {
     clear: right;
     padding: 10px;
     margin-left: 15em;
+    height: fit-content;
 }
 
 footer {
@@ -41,9 +42,5 @@ footer {
 
 img {
     float: right;
-    padding-bottom: 5px;
 }
 
-img {
-    size: initial;
-}
