@@ -1,42 +1,49 @@
-#container_style, #list_style {
+#container_style,
+#list_style {
     font-weight: 600;
     font-size: 16px;
     list-style-type: upper-roman;
 }
+
 .description {
-    width: 350px;   
+    width: 350px;
 }
+
 .example {
     background-color: black;
     width: 400px;
     display: inline-block;
     overflow-y: auto;
 }
+
 code {
     color: green;
 }
+
 .nav {
     width: 15em;
     background: #bab2a6;
     float: left;
 }
-article {
+
+.article {
     background: #8c8780;
     margin-bottom: .2em;
     clear: right;
     padding: 10px;
     margin-left: 15em;
 }
+
 footer {
     height: fit-content;
     background: #827460;
 }
-.send {
+
+img {
     float: right;
+    padding-bottom: 5px;
 }
-.empty {
-    clear: both;
-}
+
 img {
     size: initial;
 }
