@@ -43,6 +43,12 @@ footer {
 img {
     float: right;
 }
-.empty {
-    clear: left;
+.eight {
+
+}
+div {
+    margin-top: 10px;
+    height: 200px;
+    width: 200px;
+    background-image: url('src/img/cards.png');    
 }
