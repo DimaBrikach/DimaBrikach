@@ -3,44 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Basic- 3</title>
+    <meta name="viewport" content="width=basic-css-3, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
+    <title>Document</title>
 </head>
 
 <body>
-    <div class="wrapper">
-            <nav class="nav">
-                <h4>Блок навигации</h4>
-                <ul>
-                    <li>Width 15em</li>
-                    <li>Must have background color</li>
-                    <li>Left aligned</li>
-                    <li>Fill in the navigation block with the info enough to overlap the second article. Refer to the
-                        image
-                        as an example</li>
-                </ul>
-            </nav>
-        <div class="article">
-            <h4>Статья 1</h4>
-            <p>Размер Блока:</p>
-            <ul class="articleParameters">
-                <li>Занимает всю доступную ширину</li>
-                <li>Должен присутствовать цвет фона</li>
-                <li>Во всех "статьях" сделайте отступ снизу от соседнейравным .2em, при помощи свойства margin-bottom</li>
-            </ul>
-        </div>
-        <div class="article">
-            <h4>Статья 2</h4>
-            <p>Размер блока:</p>
-            <ul class="articleParameters">
-                <li>Занимает всю доступную ширину</li>
-                <li>Должен присутствовать цвет фона</li>
-                <li>Во всех "статьях" сделайте отступ снизу от соседнейравным .2em, при помощи свойства margin-bottom <br>
-                Картинка вставлена при помощи тега, плавание организовано по правому краю внутри данной статьи для данной картинки
-                </li>
-            </ul>
+    <div class="nav">
+        <h4>Блок навигации:</h4>
+        <ul>
+            <li>Ширина 15em</li>
+            <li>Должен присутствовать цвет фона</li>
+            <li>Располагается слева</li>
+            <li>Блок навигации наполните контентом, достаточным, чтобы по высоте он начинал захватывать вторую
+                статью, как показано в данном примере</li>
+        </ul>
     </div>
+    <article>
+        <h4>Статья 1</h4>
+        Занимает всю доступную ширину <br>
+        Должен присутствовать цвет фона <br>
+        Во всех "статьях" сделайте отступ снизу от соседнейравным .2em, при помощи свойства margin-bottom
+    </article>
+    <article>
+        <h4>Статья 2</h4>
+        Занимает всю доступную ширину <br>
+        Должен присутствовать цвет фона <br>
+        Во всех "статьях" сделайте отступ снизу от соседнейравным .2em, при помощи свойства margin-bottom <br>
+        Картинка вставлена при помощи тега, плавание организовано по правому краю внутри данной статьи для данной картинки <br>
+        <br>
+        <br>
+        <img class="send" src="src/img/send.png" alt="send">
+        <div class="empty"></div>
+    </article>
+<footer>Нижний блок, подвал. Занимает всю доступную ширину. Высота определяется помещенным внутрь контентом.</footer>
 </body>
 
 </html>

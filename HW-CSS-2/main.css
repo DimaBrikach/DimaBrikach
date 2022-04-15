@@ -10,24 +10,33 @@
     background-color: black;
     width: 400px;
     display: inline-block;
+    overflow-y: auto;
 }
 code {
     color: green;
 }
-.wrapper {
-    background: #b8d9d2;
-}
 .nav {
-    display: block;
-    background-color: #d0e1e1;
-    font-size: medium;
     width: 15em;
+    background: #bab2a6;
+    float: left;
 }
-.article {
-    background: #8bc4b8;
-    margin-bottom: 2em;
-
+article {
+    background: #8c8780;
+    margin-bottom: .2em;
+    clear: right;
+    padding: 10px;
+    margin-left: 15em;
 }
-.articleParameters {
-    list-style: none;
+footer {
+    height: fit-content;
+    background: #827460;
+}
+.send {
+    float: right;
+}
+.empty {
+    clear: both;
+}
+img {
+    size: initial;
 }
