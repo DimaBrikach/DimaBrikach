@@ -43,12 +43,51 @@ footer {
 img {
     float: right;
 }
-.eight {
 
-}
 div {
+    display: inline-block;
     margin-top: 10px;
     height: 200px;
-    width: 200px;
-    background-image: url('src/img/cards.png');    
+    width: 145px;
+    background: url('src/img/cards.png');
+}
+
+.eight {
+    background-position: -999px, -1200px;
+}
+
+.queen {
+    background-position: 0px -1785px;
+}
+
+.nine {
+    background-position: -858px -1385px;
+}
+
+.ace {
+    background-position: -427px -2180px;
+}
+
+.joker {
+    background-position: 0px -2378px;
+}
+
+.kingOfHearts {
+    background-position: -998px -1983px;
+    margin-right: -50px;
+}
+.kingOfSpades {
+    background-position: -571px -1981px;
+    margin-right: -50px;
+}
+.kingOfDiamonds {
+    background-position: -854px -1981px;
+    margin-right: -50px;
+}
+.threeDiamonds {
+    background-position: -855px -193px;
+    margin-right: -50px;
+}
+.threeClubs{
+    background-position: -710px -193px;
 }
