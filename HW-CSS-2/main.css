@@ -47,8 +47,8 @@ img {
 div {
     display: inline-block;
     margin-top: 10px;
-    height: 200px;
-    width: 145px;
+    height: 190px;
+    width: 140px;
     background: url('src/img/cards.png');
 }
 
@@ -57,19 +57,19 @@ div {
 }
 
 .queen {
-    background-position: 0px -1785px;
+    background-position: 0px -1791px;
 }
 
 .nine {
-    background-position: -858px -1385px;
+    background-position: -858px -1393px;
 }
 
 .ace {
-    background-position: -427px -2180px;
+    background-position: -431px -2189px;
 }
 
 .joker {
-    background-position: 0px -2378px;
+    background-position: 1px -2389px;
 }
 
 .kingOfHearts {
@@ -87,6 +87,7 @@ div {
 .threeDiamonds {
     background-position: -855px -193px;
     margin-right: -50px;
+    
 }
 .threeClubs{
     background-position: -710px -193px;
