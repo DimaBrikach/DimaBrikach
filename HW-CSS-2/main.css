@@ -27,9 +27,9 @@ code {
 }
 
 .article {
+    width: auto;
     background: #8c8780;
     margin-bottom: .2em;
-    clear: right;
     padding: 10px;
     margin-left: 15em;
     height: fit-content;
@@ -38,9 +38,13 @@ code {
 footer {
     height: fit-content;
     background: #827460;
+    clear: both;
+    width: 100%;
 }
 
 img {
     float: right;
 }
-
+.clear {
+    clear: both;
+}
