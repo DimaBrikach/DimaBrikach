@@ -3,11 +3,11 @@ body {
     font-family: 'Red Hat Mono', monospace;
 }
 
-.nav>li {
+.nav > li {
     list-style-type: none;
     width: 200px;
-    height: 30px;
-    padding: 10px;
+    height: 15px;
+    padding: 5px;
     background-color: #949996;
     border-radius: 2px;
     color: #d7dbd9;
@@ -17,28 +17,31 @@ body {
     position: relative;
 }
 
-/*.sub_list>li {
-    width: 210px;
-    height: 15px;
-    padding: 5px;
-    
-}*/
 .sub_list {
+    position: absolute;
+    top: 35px;
+    width: 178px;
+    height: 0px;
+    left: 468px;
+    overflow: hidden;
     background-color: #a7aba9;
     color: #535454;
     border-radius: 2px;
     list-style-type: none;
-    position: absolute;
-    top: 60px;
-    left: 490px;
-    height: 0px;
-    width: 195px;
-    overflow: hidden;
-    transition: cubic-bezier(0.45, 0.05, 0.55, 0.95);
+    transition: linear;
 }
-.nav>li:hover .sub_list {
+.nav > li:hover {
+    background-color: beige;
+    color: black;
+}
+
+.nav>li:hover>.sub_list {
     height: 195px;
-    width: 200px;
-    height: 195px;
+}
+
+@media all and (max-width: 1350px) {
+    .nav>li {
+        float: none;
+    }
     
 }
