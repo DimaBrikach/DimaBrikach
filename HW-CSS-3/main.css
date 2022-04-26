@@ -1,29 +1,46 @@
-div.MenuLevel1 {
-    width: 100px
+body {
+    font-family: 'Jura', sans-serif;
+    font-family: 'Red Hat Mono', monospace;
 }
 
-div.MenuLevel1>div {
-    background-color: #969997;
-    border: solid black 1px;
+.nav>li {
+    list-style-type: none;
+    width: 200px;
+    height: 30px;
+    padding: 10px;
+    background-color: #949996;
+    border-radius: 2px;
+    color: #d7dbd9;
+    float: left;
+    border: 1px solid black;
+    border-collapse: collapse;
     position: relative;
-    cursor: pointer
 }
 
-div.MenuLevel2 {
-    width: 150px;
-    display: none
-}
-
-div.MenuLevel2>div {
-    background-color: cyan;
-    border: solid blue 1px;
-    cursor: pointer
-}
-
-div.MenuLevel1>div:hover div.MenuLevel2 {
-    display: block;
+/*.sub_list>li {
+    width: 210px;
+    height: 15px;
+    padding: 5px;
+    
+}*/
+.sub_list {
+    background-color: #a7aba9;
+    color: #535454;
+    border-radius: 2px;
+    border: 1px solid black;
+    border-collapse:collapse;
+    list-style-type: none;
     position: absolute;
-    left: 80%;
-    top: 90%;
-    z-index: 1
+    top: 60px;
+    left: 490px;
+    height: 0px;
+    width: 195px;
+    overflow: hidden;
+    transition: cubic-bezier(0.45, 0.05, 0.55, 0.95);
+}
+.nav li:hover .sub_list {
+    height: 195px;
+    width: 200px;
+    height: 195px;
+    
 }
