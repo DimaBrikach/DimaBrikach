@@ -23,25 +23,43 @@ body {
     width: 178px;
     height: 0px;
     left: 468px;
-    overflow: hidden;
     background-color: #a7aba9;
     color: #535454;
     border-radius: 2px;
     list-style-type: none;
-    transition: linear;
+    transition: height .3s;
+    overflow: hidden;
 }
 .nav > li:hover {
     background-color: beige;
     color: black;
 }
 
-.nav>li:hover>.sub_list {
-    height: 195px;
+.nav>li:hover .sub_list {
+    height: 65px;
 }
 
 @media all and (max-width: 1350px) {
+    .nav {
+        display: block;
+        position: relative;
+    }
     .nav>li {
         float: none;
+    }
+    .sub_list {
+        position: absolute;
+        left: 37px;
+        top: 75px;
+        height: 65px;
+        height: 0;
+        overflow: hidden;
+        transition: height .3s linear;
+
+    }
+    .nav>li:hover .sub_list {
+        height: 65px;
+        z-index: 1;
     }
     
 }
