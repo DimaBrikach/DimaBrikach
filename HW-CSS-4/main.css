@@ -15,18 +15,35 @@ ul>li>a:hover>ul>li>img{
     height: 32px;
     width: 32px;
 }
-table {
-    
-}
+
 th {
     background-color: #6b6b6b;
     color: black;
     font-weight: 800;
 }
-tr
+tr:nth-child(odd) {
+    background-color: #b4b4b4;
+}
+tr:nth-child(2):hover {
+    background-color: #7285e8;
+}
+tr:nth-child(3):hover {
+    background-color: #3e487a;
+    color: white;
+}
+tr:nth-child(4):hover {
+    background-color: #1eba09;
+}
+tr:nth-child(5):hover {
+    background-color: #bab709;
+}
+tr:nth-child(6):hover {
+    background-color: #0988ba;
+    color: white;
+}   
 td {
     border: 1px dotted black;
 }
-tr>td {
-    font-weight: 800;
+td:nth-child(1) {
+    font-weight: bold;
 }
