@@ -15,3 +15,17 @@ ul>li>a:hover>ul>li>img{
     height: 32px;
     width: 32px;
 }
+table {
+    
+}
+th {
+    background-color: #6b6b6b;
+    color: black;
+    font-weight: 800;
+}
+td {
+    border: 1px dotted black;
+}
+tr>td {
+    font-weight: 800;
+}
