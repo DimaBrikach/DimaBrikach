@@ -1,3 +1,12 @@
 td {
     border: 1px solid red;
+    height: 50px;
+    width: 50px;
+}
+button {
+    height: 40px;
+    width: 80px;
+    background-color: rgb(4, 36, 122);
+    color: white;
+    border-radius: 8px;
 }
