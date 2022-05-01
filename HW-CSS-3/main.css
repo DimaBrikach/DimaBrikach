@@ -12,6 +12,7 @@ body {
     float: left;
     position: relative;
 }
+
 .sub_nav {
     list-style-type: none;
     position: absolute;
@@ -22,6 +23,7 @@ body {
     background-color: rgb(116, 114, 113);
     transition: .3s linear;
 }
+
 .nav>li:hover .sub_nav {
     height: 75px;
 }
@@ -31,6 +33,7 @@ body {
     .nav>li {
         float: none;
     }
+
     .sub_nav {
         list-style-type: none;
         position: absolute;
@@ -42,6 +45,3 @@ body {
         background-color: rgb(116, 114, 113);
         transition: .3s linear;
     }
-    .nav>li:hover .sub_nav {
-        height: 75px;
-        z-index: 1;
