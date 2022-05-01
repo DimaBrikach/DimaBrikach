@@ -8,13 +8,13 @@
 ul {
     list-style-type: none;
 }
-ul>li>img {
+li img {
     visibility: hidden; 
 }
-ul>li>a:hover>ul>li>img{
-    height: 32px;
-    width: 32px;
+li:hover img {
+    visibility: visible;
 }
+
 
 th {
     background-color: #6b6b6b;

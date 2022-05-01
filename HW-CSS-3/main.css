@@ -17,17 +17,17 @@ body {
     position: relative;
 }
 
-.sub_list {
+.sub_nav {
     position: absolute;
     top: 35px;
+    left: 468px;
     width: 178px;
     height: 0px;
-    left: 468px;
     background-color: #a7aba9;
     color: #535454;
     border-radius: 2px;
     list-style-type: none;
-    transition: height .3s;
+    transition: .3s;
     overflow: hidden;
 }
 .nav > li:hover {
@@ -35,7 +35,7 @@ body {
     color: black;
 }
 
-.nav>li:hover .sub_list {
+.nav>li:hover .sub_nav {
     height: 65px;
 }
 
