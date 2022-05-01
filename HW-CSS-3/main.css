@@ -3,63 +3,45 @@ body {
     font-family: 'Red Hat Mono', monospace;
 }
 
-.nav > li {
+.nav>li {
+    height: 25px;
+    width: 150px;
+    background-color: rgb(65, 64, 64);
+    color: white;
     list-style-type: none;
-    width: 200px;
-    height: 15px;
-    padding: 5px;
-    background-color: #949996;
-    border-radius: 2px;
-    color: #d7dbd9;
     float: left;
-    border: 1px solid black;
-    border-collapse: collapse;
     position: relative;
 }
-
 .sub_nav {
-    position: absolute;
-    top: 35px;
-    left: 468px;
-    width: 178px;
-    height: 0px;
-    background-color: #a7aba9;
-    color: #535454;
-    border-radius: 2px;
     list-style-type: none;
-    transition: .3s;
+    position: absolute;
+    top: 25px;
+    width: 110px;
+    height: 0;
     overflow: hidden;
+    background-color: rgb(116, 114, 113);
+    transition: .3s linear;
 }
-.nav > li:hover {
-    background-color: beige;
-    color: black;
-}
-
 .nav>li:hover .sub_nav {
-    height: 65px;
+    height: 75px;
 }
 
-@media all and (max-width: 1350px) {
-    .nav {
-        display: block;
-        position: relative;
-    }
+@media all and (max-width: 920px) {
+
     .nav>li {
         float: none;
     }
-    .sub_list {
+    .sub_nav {
+        list-style-type: none;
         position: absolute;
-        left: 37px;
-        top: 75px;
-        height: 65px;
+        top: 10px;
+        left: 150px;
+        width: 110px;
         height: 0;
         overflow: hidden;
-        transition: height .3s linear;
-
+        background-color: rgb(116, 114, 113);
+        transition: .3s linear;
     }
-    .nav>li:hover .sub_list {
-        height: 65px;
+    .nav>li:hover .sub_nav {
+        height: 75px;
         z-index: 1;
-    }
-    
-}
