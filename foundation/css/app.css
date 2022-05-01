@@ -1,0 +1,12 @@
+li {
+    font-size: 14px;
+}
+li:hover {
+    background-color: #abbef1;
+}
+
+body {
+    font-family: 'Jura', sans-serif;
+    font-family: 'Red Hat Mono', monospace;
+    font-weight: 500;
+}
