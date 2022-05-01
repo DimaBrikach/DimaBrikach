@@ -31,6 +31,7 @@ body {
     border: 1px solid black;
     border-radius: 4px;
 }
+
 .nav>li:hover .sub_nav {
     height: 75px;
 }
@@ -40,7 +41,8 @@ body {
     .nav>li {
         float: none;
     }
-    .nav>li:hover{
+
+    .nav>li:hover {
         background-color: white;
         color: black;
         border: 1px solid black;
@@ -58,5 +60,5 @@ body {
         overflow: hidden;
         background-color: rgb(116, 114, 113);
         transition: .3s linear;
-    } 
+    }
 }
